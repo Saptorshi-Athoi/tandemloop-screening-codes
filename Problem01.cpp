@@ -20,8 +20,8 @@ public:
             res = a - b;
         } else if (operation == "*") {
             res = a * b;
-        } else if (operation == "/") {
-            if (b != 0){ 
+        } else if (operation == "/") {                      // division functionality to handle things in float
+            if (b != 0){            
                 float result = static_cast<float>(a / b);
                 cout << fixed << setprecision(2);
                 cout << "Result: " << result << endl;
